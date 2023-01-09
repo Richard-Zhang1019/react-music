@@ -1,0 +1,7 @@
+export const CHANGE_HOT_SINGER = "artist/CHANGE_HOT_SINGER";
+
+export const CHANGE_CURRENT_AREA = 'artist/CHANGE_CURRENT_AREA';
+export const CHANGE_CURRENT_TYPE = 'artist/CHANGE_CURRENT_TYPE';
+
+export const CHANGE_ARTIST_LIST = 'artist/CHANGE_ARTIST_LIST';
+export const CHANGE_ARTIST_DETAIL = 'artist/CHANGE_ARTIST_DETAIL';
