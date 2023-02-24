@@ -8,12 +8,5 @@ export default defineConfig({
       '@': resolve(__dirname, './src')
     }
   },
-  plugins: [react()],
-  css: {
-    preprocessorOptions: {
-      less: {
-        javascriptEnabled: true
-      }
-    }
-  }
+  plugins: [react()]
 })
