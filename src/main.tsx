@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 
 import 'antd/dist/reset.css'
-import '@/assets/style/global.css'
 import 'tailwindcss/tailwind.css'
+import '@/assets/style/global.css'
+import { HashRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>
 )
