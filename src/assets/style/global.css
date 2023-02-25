@@ -8,120 +8,20 @@
 @tailwind utilities;
 
 @layer utilities {
-
+  /* 垂直水平居中 */
   .f-c-c {
     @apply flex justify-center items-center;
   }
-
+  /* 主轴上居中 */
+  .x-center {
+    @apply flex justify-center;
+  }
+  /* 副轴上居中 */
+  .y-center {
+    @apply flex items-center;
+  }
+  /* 鼠标 pointer */
   .cp {
     @apply cursor-pointer;
-  }
-  .text-nowrap {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  .wrap-v1 {
-    width: 1100px;
-    margin: 0 auto;
-  }
-  
-  .wrap-v2 {
-    width: 980px;
-    margin: 0 auto;
-  }
-  
-  .wrap-v3 {
-    width: 900px;
-    margin: 0 auto;
-  }
-  
-  .sprite {
-    background: url(../image/sprite.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_01 {
-    background: url(../image/sprite_01.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_02 {
-    background: url(../image/sprite_02.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_cover {
-    background: url(../image/sprite_cover.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_icon {
-    background: url(../image/sprite_icon.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_icon2 {
-    background: url(../image/sprite_icon2.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_icon3 {
-    background: url(../image/sprite_icon3.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_button {
-    background: url(../image/sprite_button.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_button2 {
-    background: url(../image/sprite_button2.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_table {
-    background: url(../image/sprite_table.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_playlist_bg {
-    background: url(../image/playlist_bg.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_playlist {
-    background: url(../image/playlist.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_mine {
-    background: url(../image/mine_sprite.png) no-repeat 0 9999px;
-  }
-  
-  .sprite_focus {
-    background: url(../image/focus_sprite.jpg) no-repeat 0 9999px;
-  }
-  
-  .image_cover {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    text-indent: -9999px;
-    background: url(../image/sprite_cover.png) no-repeat -145px -57px;
-  }
-  
-  .sprite_tab {
-    background: url(../image/tab.png) no-repeat 0 9999px;
-  }
-  .sprite {
-    background: url(../image/sprite.png) no-repeat 0 9999px;
-  }
-  .sprite_player {
-    background: url(../image/playbar_sprite.png) no-repeat 0 9999px;
-  }
-  .sprite_singer {
-    background: url(../image/singer_sprite.png) no-repeat 0 9999px;
-  }
-  
-  .lyric-class .ant-message-notice-content {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 50px;
-    background-color: rgba(0, 0, 0, .5);
-    color: #fff;
   }
 }

@@ -1,8 +1,9 @@
 import { Navigate, RouteObject } from 'react-router-dom'
 
 import Discover from '@/pages/discover'
-import Focus from '@/pages/focus'
-import Mine from '@/pages/mine'
+import Search from '@/pages/search'
+import Rank from '@/pages/rank'
+import Sheet from '@/pages/sheet'
 
 const routes: RouteObject[] = [
   {
@@ -14,12 +15,16 @@ const routes: RouteObject[] = [
     element: <Discover />,
   },
   {
-    path: '/focus',
-    element: <Focus />
+    path: '/search',
+    element: <Search />
   },
   {
-    path: '/mine',
-    element: <Mine />
+    path: '/rank',
+    element: <Rank />
+  },
+  {
+    path: '/sheet',
+    element: <Sheet />
   }
 ]
 
