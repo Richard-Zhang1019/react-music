@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import { headerLinks, HeaderLinksItem } from '@/common/local'
 
@@ -7,7 +7,7 @@ const Header = () => {
 
   const showSelectItem = (item: HeaderLinksItem, index: number) => {
     if (index < 3) {
-      return <NavLink to={item.link}>{item.title}</NavLink>
+      return <div className='w-full' onClick={() => navigate(item.link)}>{item.title}</div>
     } else {
       return <a href={item.link} target='_blank'>{item.title}</a>
     }
